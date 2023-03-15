@@ -1,0 +1,29 @@
+.navbarcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: greenyellow;
+    height: 80px;
+}
+
+.brandicon{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+a:hover{
+    background-color:darkgreen;
+    color: white;
+}
+
+p {
+   display: flex;
+   flex-direction: row;
+   align-items: center; 
+}

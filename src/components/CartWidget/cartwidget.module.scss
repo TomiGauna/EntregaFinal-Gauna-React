@@ -1,0 +1,18 @@
+.cartview{
+    width: 55px;
+    height: 55px;
+}
+
+.quantityvisualizer{
+    background-color:orange;
+    color: black;
+    border-radius: 30%;
+    font-size: 15px;
+    padding: 4px;
+    right: 20px;
+    top: 37px;
+}
+
+.cartview:hover{
+    cursor: pointer;
+}
