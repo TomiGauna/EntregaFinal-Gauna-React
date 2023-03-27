@@ -6,7 +6,12 @@
     font-family: 'Assistant', sans-serif;
 }
 
-body{
-    background-image: url("../imgs/background.jpg");
-
+a:active{
+    text-decoration: none;
 }
+
+/* 
+body{
+    /* background-image: url("../imgs/background.jpg");
+
+} */

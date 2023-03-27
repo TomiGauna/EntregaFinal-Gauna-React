@@ -1,0 +1,18 @@
+.card{
+    border: 3px;
+    border-style: solid;
+    border-color:lightgray;
+    margin: 10px;
+    transition: 1000ms;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    border-color: chartreuse;
+    /* color: darkgreen; */
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+}
