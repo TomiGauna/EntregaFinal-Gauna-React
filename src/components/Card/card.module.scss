@@ -3,7 +3,17 @@
     border-style: solid;
     border-color:lightgray;
     margin: 10px;
-    transition: 1000ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1000ms;;
+
+}
+
+.card h4{
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .card:hover{

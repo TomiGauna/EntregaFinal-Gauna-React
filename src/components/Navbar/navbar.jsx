@@ -13,11 +13,11 @@ const Navbar = ({logoIcon}) => {
             <p>National Teams</p>
         </NavLink>
 
-        <NavLink to="/category/men's clothing">
+        <NavLink to="/category/premierleague">
             <p>EPL</p>
         </NavLink>
 
-        <NavLink to="category/jewelery">
+        <NavLink to="category/laliga">
             <p>La Liga</p>
         </NavLink>
 

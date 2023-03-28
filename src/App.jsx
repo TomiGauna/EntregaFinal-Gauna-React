@@ -8,23 +8,15 @@ import products from './components/products/footballshirts.json';
 
 function App() {
 
-  /* const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetch(productsavailable)
-      .then((response) => response.json())
-      .then((data) => { 
-        console.log(data)
-        /* setProducts(data) });
-  }, []) */
-
   return (
     <>
       <Navbar logoIcon= '../imgs/brand-icon.png'/>
       <Routes>
         <Route path = "/" element = {<ItemListContainer products= {products}/>} />
         <Route path="/category/:categoryName" element={<ItemListContainer />} />
-        <Route path='/:id' element={<ArticleDetail />}/>
+        <Route path='/item/:id' element={<ArticleDetail />}/>
+        <Route path='/404' element={<h2>Error 404: Article Not Found</h2>} />
+        <Route path='/cart' element={<h2>Items contained in shopping cart:</h2>} />
       </Routes>
       
     </>

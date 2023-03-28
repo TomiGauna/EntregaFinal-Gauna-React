@@ -1,0 +1,39 @@
+.detailcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    font-size: large;
+}
+
+.detailcontainer img{
+    height: 400px;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+.detailcontainer h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.detailcontainer p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.detailcontainer button{
+    margin: 5px;
+    width: 60px;
+    height: 40px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detailcontainer button:hover{
+    background-color: coral;
+}

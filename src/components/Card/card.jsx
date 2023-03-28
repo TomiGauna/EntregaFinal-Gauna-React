@@ -3,11 +3,11 @@ import styles from '../Card/card.module.scss'
 
 const Card = ( {product} ) => {
   return (
-    <Link to={`${product.id}`}>
+    <Link to={`/item/${product.id}`}>
       <div className={styles.card}>
-          <img src={product.image} alt={product.title} />
-          <h4 key={product.id}>{product.title}</h4>
-          <p>{product.price}</p>
+          <img src={product.img} alt={product.name} />
+          <h4 key={product.id}>{product.name}</h4>
+          <p>${product.price}</p>
       </div>
     </Link>
   )

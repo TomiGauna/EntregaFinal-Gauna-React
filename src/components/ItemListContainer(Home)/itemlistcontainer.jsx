@@ -2,29 +2,26 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Card from '../Card/card';
 import styles from '../ItemListContainer(Home)/itemlistcontainer.module.scss';
-import axios from "axios";
+
 
 const Itemlistcontainer = () => {
 
   const [products, setProduct] = useState([])
   const { categoryName } = useParams();
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const resp = await axios.get('/products/footballshirts.json');
-      if (categoryName) {
-        setProduct(
-          resp.data.filter((product) => product.league === categoryName )
-        );
-        } else {
-        setProduct(resp.data)
-      }
-      };
-      fetchData();
+   if (categoryName) {
+    useEffect(() => {
+      fetch('/src/components/products/footballshirts.json')
+          .then(response => response.json())
+          .then(data => setProduct(data.filter((product) => product.league == categoryName)) )
   }, [categoryName]);
-
-
-  
+  } else {
+    useEffect(() => {
+      fetch('/src/components/products/footballshirts.json')
+          .then(response => response.json())
+          .then(data => setProduct(data))
+  }, [categoryName]);
+}
 
   return (
     <div className={styles.itemlistcontainer}>
