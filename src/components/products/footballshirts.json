@@ -7,6 +7,7 @@
         "league": "nationalteams",
         "shownleague": "National Team",
         "price": 50000,
+        "quantity" : 1,
         "id": 1
     },
 
@@ -17,6 +18,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/belgium-away-shirt-22-23.jpg",
         "price": 31000,
+        "quantity" : 1,
         "id": 2
     },
 
@@ -27,6 +29,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/belgium-home.webp",
         "price": 32000,
+        "quantity" : 1,
         "id": 3
     },
 
@@ -38,6 +41,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/egypt-home.png",
         "price": 29000,
+        "quantity" : 1,
         "id": 4
     },
 
@@ -49,6 +53,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/germany-aways.jpg",
         "price": 38000,
+        "quantity" : 1,
         "id": 5
     },
 
@@ -61,6 +66,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/italy-white.webp",
         "price": 40000,
+        "quantity" : 1,
         "id": 6
     },
 
@@ -73,6 +79,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/japan-away.jpg",
         "price": 33000,
+        "quantity" : 1,
         "id": 7
     },
 
@@ -85,6 +92,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/mexico-away1.webp",
         "price": 35000,
+        "quantity" : 1,
         "id": 8
     },
 
@@ -96,6 +104,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/morocco-homes.webp",
         "price": 35000,
+        "quantity" : 1,
         "id": 9
     },
 
@@ -107,6 +116,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/netherlands-away.jpg",
         "price": 36000,
+        "quantity" : 1,
         "id": 10
     },
 
@@ -118,6 +128,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/netherlands-home.webp",
         "price": 35000,
+        "quantity" : 1,
         "id": 11
     },
 
@@ -130,6 +141,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/nigeria.webp",
         "price": 32000,
+        "quantity" : 1,
         "id": 12
     },
 
@@ -141,6 +153,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/norway-away.jpg",
         "price": 34000,
+        "quantity" : 1,
         "id": 13
     },
 
@@ -153,6 +166,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/portugal-home.webp",
         "price": 36000,
+        "quantity" : 1,
         "id": 14
     },
 
@@ -165,6 +179,7 @@
         "shownleague": "National Team",
         "img":"../imgs/football-shirts/International/uruguay-home.webp",
         "price": 32000,
+        "quantity" : 1,
         "id": 15
     },
 
@@ -177,17 +192,19 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/bayern-munich-white.jpg",
         "price": 30000,
+        "quantity" : 1,
         "id": 16
     },
 
 
     {
-        "name": "Borussia Dortmund All Black Special Edition Shirt 22/23",
+        "name": "Borussia Dortmund All Black Edition Shirt 22/23",
         "team": "Borussia Dortmund",
         "league": "bundesliga",
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/Borussia-Dortmund-AllBlackSpecial-Edition-Football-Shirt.jpg",
         "price": 27000,
+        "quantity" : 1,
         "id": 17
     },
 
@@ -200,6 +217,7 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/eintrakt-frankfurt-home.jpg",
         "price": 27000,
+        "quantity" : 1,
         "id": 18
     },
 
@@ -211,6 +229,7 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/freiburg-third.png",
         "price": 29000,
+        "quantity" : 1,
         "id": 19
     },
 
@@ -223,6 +242,7 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/schalke04-third.png",
         "price": 22000,
+        "quantity" : 1,
         "id": 20
     },
 
@@ -234,6 +254,7 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/union-home.webp",
         "price": 19000,
+        "quantity" : 1,
         "id": 21
     },
 
@@ -245,6 +266,7 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/werder-bremen-third-kit.jpeg",
         "price": 25000,
+        "quantity" : 1,
         "id": 22
     },
 
@@ -257,6 +279,7 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/wolfsburg-black.jpg",
         "price": 28000,
+        "quantity" : 1,
         "id": 23
     },
 
@@ -270,6 +293,7 @@
         "shownleague": "Bundesliga",
         "img":"../imgs/football-shirts/Bundesliga/wolfsburg-home.png",
         "price": 28000,
+        "quantity" : 1,
         "id": 24
     },
 
@@ -281,6 +305,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/arsenal-2022-23-adidas-away-kit.jpg",
         "price": 28000,
+        "quantity" : 1,
         "id": 25
     },
 
@@ -292,6 +317,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/fulham-away-kit.jpg",
         "price": 18000,
+        "quantity" : 1,
         "id": 26
     },
 
@@ -303,6 +329,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/leeds-segunda.webp",
         "price": 24000,
+        "quantity" : 1,
         "id": 27
     },
 
@@ -314,6 +341,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/liverpool-third-2022-23.jpg",
         "price": 28000,
+        "quantity" : 1,
         "id": 28
     },
 
@@ -326,6 +354,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/man-city-home.webp",
         "price": 29000,
+        "quantity" : 1,
         "id": 29
     },
 
@@ -337,6 +366,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/man-united-home.webp",
         "price": 28000,
+        "quantity" : 1,
         "id": 30
     },
 
@@ -349,6 +379,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/munited-white.webp",
         "price": 31000,
+        "quantity" : 1,
         "id": 31
     },
 
@@ -362,6 +393,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/nottingham-forest.png",
         "price": 23000,
+        "quantity" : 1,
         "id": 32
     },
 
@@ -374,6 +406,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/southhampton-home.jpg",
         "price": 21000,
+        "quantity" : 1,
         "id": 33
     },
 
@@ -385,6 +418,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/spurs-away-shirt-22-23.jpg",
         "price": 25000,
+        "quantity" : 1,
         "id": 34
     },
 
@@ -397,6 +431,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/totenhamm-third.jpg",
         "price": 25000,
+        "quantity" : 1,
         "id": 35
     },
 
@@ -407,6 +442,7 @@
         "shownleague": "Premier League",
         "img":"../imgs/football-shirts/EPL/tottenham-home.webp",
         "price": 25000,
+        "quantity" : 1,
         "id": 36
     },
 
@@ -418,6 +454,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/athletic-bilbao-22-23-away-kit-1.jpg",
         "price": 17000,
+        "quantity" : 1,
         "id": 37
     },
 
@@ -429,6 +466,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/atleti-azul.webp",
         "price": 20000,
+        "quantity" : 1,
         "id": 38
     },
 
@@ -440,6 +478,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/barca-away-22-23.png",
         "price": 24000,
+        "quantity" : 1,
         "id": 39
     },
 
@@ -451,6 +490,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/celta-3.jpg",
         "price": 17000,
+        "quantity" : 1,
         "id": 40
     },
 
@@ -463,6 +503,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/elche-third1.jpg",
         "price": 15000,
+        "quantity" : 1,
         "id": 41
     },
 
@@ -475,6 +516,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/girona-third.jpg",
         "price": 12000,
+        "quantity" : 1,
         "id": 42
     },
 
@@ -488,6 +530,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/real-madrid-third-2022-23.png",
         "price": 22000,
+        "quantity" : 1,
         "id": 43
     },
 
@@ -501,6 +544,7 @@
         "shownleague": "La Liga",
         "img":"../imgs/football-shirts/La-Liga/real-sociedad-away.jfif",
         "price": 16000,
+        "quantity" : 1,
         "id": 44
     },
 
@@ -513,6 +557,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/cuarto-kit-psg.jpg",
         "price": 29000,
+        "quantity" : 1,
         "id": 45
     },
 
@@ -524,6 +569,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/lille-third.webp",
         "price": 18000,
+        "quantity" : 1,
         "id": 46
     },
 
@@ -536,6 +582,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/marsella-home.jpg",
         "price": 21000,
+        "quantity" : 1,
         "id": 47
     },
 
@@ -549,6 +596,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/nice-away.png",
         "price": 25000,
+        "quantity" : 1,
         "id": 48
     },
 
@@ -562,6 +610,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/ol-away-23.webp",
         "price": 22000,
+        "quantity" : 1,
         "id": 49
     },
 
@@ -575,6 +624,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/ol-lyon-fourth.webp",
         "price": 22000,
+        "quantity" : 1,
         "id": 50
     },
 
@@ -588,6 +638,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/Olympique-de-Marsella-Visitante.jpg",
         "price": 27000,
+        "quantity" : 1,
         "id": 51
     },
 
@@ -601,6 +652,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/psg-third.jpg",
         "price": 31000,
+        "quantity" : 1,
         "id": 52
     },
 
@@ -614,6 +666,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/stade-de-reims-awaysss.jpg",
         "price": 17000,
+        "quantity" : 1,
         "id": 53
     },
 
@@ -626,6 +679,7 @@
         "shownleague": "Ligue 1",
         "img":"../imgs/football-shirts/Ligue1/stade-rennais-away.jpg",
         "price": 22000,
+        "quantity" : 1,
         "id": 54
     },
 
@@ -638,6 +692,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/acmilan-away.jpg",
         "price": 26000,
+        "quantity" : 1,
         "id": 55
     },
 
@@ -650,6 +705,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/asroma2.jpg",
         "price": 26000,
+        "quantity" : 1,
         "id": 56
     },
 
@@ -661,6 +717,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/bologna-away.webp",
         "price": 15000,
+        "quantity" : 1,
         "id": 57
     },
 
@@ -673,6 +730,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/fiorentina-third.webp",
         "price": 21000,
+        "quantity" : 1,
         "id": 58
     },
 
@@ -685,6 +743,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/inter-yellow.png",
         "price": 25000,
+        "quantity" : 1,
         "id": 59
     },
 
@@ -698,6 +757,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/juventus-away.jpg",
         "price": 26000,
+        "quantity" : 1,
         "id": 60
     },
 
@@ -711,6 +771,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/roma-home.webp",
         "price": 27000,
+        "quantity" : 1,
         "id": 61
     },
 
@@ -724,6 +785,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/sampdoria-yellow.jpg",
         "price": 19000,
+        "quantity" : 1,
         "id": 62
     },
 
@@ -737,6 +799,7 @@
         "shownleague": "Serie A",
         "img":"../imgs/football-shirts/Serie-A/ssc-napoli-away-match-shirt-20222023.jpg",
         "price": 23000,
+        "quantity" : 1,
         "id": 63
     },
 
@@ -744,11 +807,12 @@
 
 
     {
-        "name": "AIK Solna Royal Special Limited Edition Shirt 22/23",
+        "name": "AIK Solna Royal Special Shirt 22/23",
         "team": "AIK Solna",
         "shownleague": "Sweden League",
         "img":"../imgs/football-shirts/aik-royal-edition-2022.png",
         "price": 44000,
+        "quantity" : 1,
         "id": 64
     },
 
@@ -761,6 +825,7 @@
         "shownleague": "Eredivisie",
         "img":"../imgs/football-shirts/ajax-golden-standard.webp",
         "price": 37000,
+        "quantity" : 1,
         "id": 65
     },
 
@@ -771,27 +836,30 @@
         "shownleague": "Primeira Liga",
         "img":"../imgs/football-shirts/Camiseta_segunda_equipacion_Benfica_22-23_Amarillo_GA8531_01_laydown.jpg",
         "price": 35000,
+        "quantity" : 1,
         "id": 66
     },
 
 
     {
-        "name": "Cruzeiro Commemmorative Edition Shirt 2023",
+        "name": "Cruzeiro Commemmorative Shirt 2023",
         "team": "Cruzeiro EC",
         "shownleague": "Brasileirao",
         "img":"../imgs/football-shirts/cruzeiro-commemmorative-2023.webp",
         "price": 30000,
+        "quantity" : 1,
         "id": 67
     },
 
 
 
     {
-        "name": "AIK Solna 132 Years Limited Edition Shirt",
+        "name": "AIK Solna 132 Years Limited Shirt",
         "team": "AIK Solna",
         "shownleague": "Sweden League",
         "img":"../imgs/football-shirts/Nike AIK 2023 132-Years Kit (15).jpg",
         "price": 41000,
+        "quantity" : 1,
         "id": 68
     },
 
@@ -803,6 +871,7 @@
         "shownleague": "Major League Soccer",
         "img":"../imgs/football-shirts/nycfc-2022-adidas-away-kit-3.jpg",
         "price": 25000,
+        "quantity" : 1,
         "id": 69
     }
 ]

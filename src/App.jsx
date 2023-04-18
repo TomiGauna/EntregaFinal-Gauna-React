@@ -5,20 +5,26 @@ import ArticleDetail from './components/ArticleDetail/articledetail';
 import ItemListContainer from './components/ItemListContainer(Home)/itemlistcontainer';
 import Navbar from './components/Navbar/navbar';
 import products from './components/products/footballshirts.json';
+import ControlledCarousel from './components/Carousel/carousel';
+import CartSupplier from './contexts/CartContext';
+
+
 
 function App() {
 
   return (
     <>
-      <Navbar logoIcon= '../imgs/brand-icon.png'/>
-      <Routes>
-        <Route path = "/" element = {<ItemListContainer products= {products}/>} />
-        <Route path="/category/:categoryName" element={<ItemListContainer />} />
-        <Route path='/item/:id' element={<ArticleDetail />}/>
-        <Route path='/404' element={<h2>Error 404: Article Not Found</h2>} />
-        <Route path='/cart' element={<h2>Items contained in shopping cart:</h2>} />
-      </Routes>
-      
+      <CartSupplier>
+        <Navbar logoIcon= '../imgs/brand-icon.png'/>
+        {/* <ControlledCarousel /> */}
+        <Routes>
+          <Route path = "/" element = {<ItemListContainer products= {products}/>} />
+          <Route path="/category/:categoryName" element={<ItemListContainer />} />
+          <Route path='/item/:id' element={<ArticleDetail />}/>
+          <Route path='/404' element={<h2>Error 404: Article Not Found</h2>} />
+          <Route path='/cart' element={<h2>Items contained in shopping cart:</h2>} />
+        </Routes>
+      </CartSupplier>
     </>
 
   )

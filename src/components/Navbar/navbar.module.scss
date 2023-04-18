@@ -2,25 +2,38 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     background-color: greenyellow;
     height: 80px;
+    align-items: center;
+    border-radius: 6px;
+
+        .menu{
+            color:darkgreen;
+
+            &:hover {
+                background-color:darkgrey;
+            }
+        }
+
 }
 
 .brandicon{
     width: 60px;
     height: 60px;
     margin-right: 10px;
+    color: orangered;
 }
 
 a{
     text-decoration-line: none;
+    margin-top: 20px;
 }
 
 
 .brandname{
-    font-weight: bolder;
-    font-size:x-large;
+    font-weight:900;
+    font-size:xx-large;
+    color: darkred;
 }
 
 p {

@@ -1,11 +1,17 @@
+import { useContext } from 'react';
 import styles from './cartwidget.module.scss';
+import { CartContext } from '../../contexts/CartContext';
+
 
 const CartWidget = ({icon}) => {
+
+  const {shoppingCart} = useContext(CartContext);
+
   return (
 
     <div>
       <img className={styles.cartview} src={icon} alt="Shopping Cart" />
-      <span className={styles.quantityvisualizer}>0</span>
+      <span className={styles.quantityvisualizer}>{shoppingCart.length}</span>
     </div>
   )
 }
