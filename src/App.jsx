@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/navbar';
 import products from './components/products/footballshirts.json';
 import ControlledCarousel from './components/Carousel/carousel';
 import CartSupplier from './contexts/CartContext';
+import CartFilling from './components/CartFilling/CartFilling';
 
 
 
@@ -22,7 +23,7 @@ function App() {
           <Route path="/category/:categoryName" element={<ItemListContainer />} />
           <Route path='/item/:id' element={<ArticleDetail />}/>
           <Route path='/404' element={<h2>Error 404: Article Not Found</h2>} />
-          <Route path='/cart' element={<h2>Items contained in shopping cart:</h2>} />
+          <Route path='/cart' element={<CartFilling />} />
         </Routes>
       </CartSupplier>
     </>

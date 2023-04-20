@@ -3,15 +3,16 @@ import styles from './cartwidget.module.scss';
 import { CartContext } from '../../contexts/CartContext';
 
 
-const CartWidget = ({icon}) => {
+const CartWidget = ( { icon } ) => {
 
-  const {shoppingCart} = useContext(CartContext);
+  const {cartQuantity} = useContext(CartContext);
+
 
   return (
 
     <div>
       <img className={styles.cartview} src={icon} alt="Shopping Cart" />
-      <span className={styles.quantityvisualizer}>{shoppingCart.length}</span>
+      <span className={styles.quantityvisualizer}>{cartQuantity()}</span>
     </div>
   )
 }

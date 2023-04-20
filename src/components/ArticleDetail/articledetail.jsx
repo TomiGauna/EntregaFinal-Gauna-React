@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
 import styles from '../ArticleDetail/articledetail.module.scss'
 import { CartContext } from '../../contexts/CartContext';
+import { BsCartPlus } from "react-icons/bs";
+
 
 const ArticleDetail = () => {
  
@@ -47,10 +49,12 @@ const ArticleDetail = () => {
           <div className={styles.form}>
             <p>Items:</p>
             <button disabled={count <= 1} onClick={decreaseQuantity}>-</button>
-            <input value={count} />
+            <input 
+              onChange={(e) => setCount(e.target.value)}
+              value={count} />
             <button onClick={increaseQuantity}>+</button>
           </div>
-          <button className={styles.buybtn} onClick={() => pushItem(product)} >Add To Cart</button>
+          <button className={styles.buybtn} onClick={() => pushItem(product, count)} >Add To Cart <BsCartPlus /></button>
           {/* <ArticleButton onClick={pushItem} /> */}
       </div>
     </div>

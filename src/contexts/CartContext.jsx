@@ -26,21 +26,19 @@ const CartSupplier = ( { children } ) => {
 
       setShoppingCart(newCart)
     }
-    
-    /* const pushItem = (product,  /* newQuantity  ) => {
-        const newCart = shoppingCart.filter(prod => prod.id !== product.id);
-        newCart.push({ ...product,  /* quantity: newQuantity   });
-        setShoppingCart(newCart);
-    } */
 
-    /* const increaseQuantity = (product) => {product.quantity++}
+    const overallAmount = () => {
+      return shoppingCart.reduce((prev, act) => prev + act.quantity * act.price, 0)
+    };
+
+    const allArticles = () => 
+      shoppingCart.reduce ((acc, currProd) => acc + currProd.quantity, 0);
     
     
-    const decreaseQuantity = (product) => {
-        if (product.quantity !== 1) {
-          product.quantity--
-        }
-    } */
+    const cartQuantity = () => {
+      return shoppingCart.reduce((acc, prod) => (acc += prod.quantity), 0);
+    };
+
 
     console.log('Cart: ', shoppingCart);
 
@@ -50,9 +48,11 @@ const CartSupplier = ( { children } ) => {
       prodInCart, 
       removeItem, 
       pushItem, 
+      cartQuantity,
+      overallAmount,
+      allArticles,
       shoppingCart
-      /* increaseQuantity,
-      decreaseQuantity */ }}>
+       }}>
         { children }
     </CartContext.Provider>
   )
