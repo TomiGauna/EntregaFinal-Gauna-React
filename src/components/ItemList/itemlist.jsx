@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import styles from '../Card/card.module.scss';
+import styles from './itemlist.module.scss';
 import { useContext } from 'react';
 import { CartContext } from '../../contexts/CartContext';
 
@@ -7,7 +7,7 @@ import { CartContext } from '../../contexts/CartContext';
 const Card = ( {product} ) => {
 
   const name = useContext(CartContext);
-  console.log('card: ', name);
+  /* console.log('card: ', name); */
 
   return (
     <Link to={`/item/${product.id}`}>

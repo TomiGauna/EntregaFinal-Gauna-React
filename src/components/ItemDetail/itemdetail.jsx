@@ -1,23 +1,33 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
-import styles from '../ArticleDetail/articledetail.module.scss'
+import styles from './itemdetail.module.scss'
 import { CartContext } from '../../contexts/CartContext';
 import { BsCartPlus } from "react-icons/bs";
+import { doc, getDoc, getFirestore } from 'firebase/firestore';
 
 
 const ArticleDetail = () => {
  
     const [product, setProduct] = useState({})
-    const { id } = useParams();
+    const { detailId } = useParams();
 
     useEffect(() => {
+      const db = getFirestore();
+      const docCall = doc(db, 'products', 'Id');
+
+      getDoc(docCall)
+        .then(response => setProduct({ id: response.id, ...response.data() }))
+    }, [detailId])
+    
+
+    /* useEffect(() => {
       fetch('/src/components/products/footballshirts.json')
         .then((response) => response.json())
         .then((data) => {
           const prod = data.find((product) => product.id == id)
           setProduct(prod);
         })
-    }, []);
+    }, []); */
 
     if(!product){
       return <Navigate to='/404' />
