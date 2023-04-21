@@ -13,21 +13,13 @@ const ArticleDetail = () => {
 
     useEffect(() => {
       const db = getFirestore();
-      const docCall = doc(db, 'products', 'Id');
+      const docCall = doc(db, 'products', 'detailId');
+      console.log(docCall);
 
       getDoc(docCall)
-        .then(response => setProduct({ id: response.id, ...response.data() }))
+        .then(response => setProduct({ ...response.data(), detailId: response.id, }))
     }, [detailId])
-    
 
-    /* useEffect(() => {
-      fetch('/src/components/products/footballshirts.json')
-        .then((response) => response.json())
-        .then((data) => {
-          const prod = data.find((product) => product.id == id)
-          setProduct(prod);
-        })
-    }, []); */
 
     if(!product){
       return <Navigate to='/404' />
@@ -65,7 +57,6 @@ const ArticleDetail = () => {
             <button onClick={increaseQuantity}>+</button>
           </div>
           <button className={styles.buybtn} onClick={() => pushItem(product, count)} >Add To Cart <BsCartPlus /></button>
-          {/* <ArticleButton onClick={pushItem} /> */}
       </div>
     </div>
   )

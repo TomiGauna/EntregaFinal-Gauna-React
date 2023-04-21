@@ -19,37 +19,21 @@ const Itemlistcontainer = () => {
     if (categoryName) {
         const filter = query(queryCollection, where('league', '==', categoryName));
           getDocs(filter)
-            .then(resp => setProducts(resp.docs.map(product => ({id: product.id, ...product.data() }))))
+            .then(resp => setProducts(resp.docs.map(product => ({ ...product.data(), id: product.id }))))
 
       } else {
           getDocs(queryCollection)
-            .then(resp => setProducts(resp.docs.map(product => ({id: product.id, ...product.data() }))))
+            .then(resp => setProducts(resp.docs.map(product => ({ ...product.data(), id: product.id, }))))
         }
   }, [categoryName]);
-  
 
 
-  /* const [products, setProduct] = useState([])
-  const { categoryName } = useParams();
 
-   if (categoryName) {
-    useEffect(() => {
-      fetch('/src/components/products/footballshirts.json')
-          .then(response => response.json())
-          .then(data => setProduct(data.filter((product) => product.league == categoryName)) )
-  }, [categoryName]);
-  } else {
-    useEffect(() => {
-      fetch('/src/components/products/footballshirts.json')
-          .then(response => response.json())
-          .then(data => setProduct(data))
-  }, [categoryName]);
-} */
 
   return (
     <div className={styles.itemlistcontainer}>
       {products.map((product) => 
-      <Card /* key={product.id} */ product={product}  />)}
+      <Card key={product.id}  product={product}  />)}
     </div>
   )
 }
