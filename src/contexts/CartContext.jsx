@@ -1,7 +1,6 @@
 import React, { createContext, useState } from 'react'
 
 export const CartContext = createContext([]);
-console.log('Cart Context: ', CartContext);
 
 const CartSupplier = ( { children } ) => {
 

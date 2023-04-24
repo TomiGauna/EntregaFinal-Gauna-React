@@ -9,16 +9,16 @@ import { doc, getDoc, getFirestore } from 'firebase/firestore';
 const ArticleDetail = () => {
  
     const [product, setProduct] = useState({})
-    const { detailId } = useParams();
+    const { id } = useParams();
 
     useEffect(() => {
       const db = getFirestore();
-      const docCall = doc(db, 'products', 'detailId');
-      console.log(docCall);
+      const docCall = doc(db, 'products', id);
+
 
       getDoc(docCall)
-        .then(response => setProduct({ ...response.data(), detailId: response.id, }))
-    }, [detailId])
+        .then(response => setProduct({ ...response.data(), id: response.id, }))
+    }, [id])
 
 
     if(!product){

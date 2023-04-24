@@ -2,13 +2,13 @@ import styles from './navbar.module.scss';
 import CartWidget from '../CartWidget/cartwidget';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = ({logoIcon}) => {
+const Navbar = () => {
 
 
   return (
     <nav className= {styles.navbarcontainer}>
         <NavLink to="/">
-            <p className={styles.brandname}><img className={styles.brandicon} src={logoIcon} />Tenth Player</p>
+            <p className={styles.brandname}><img className={styles.brandicon} src='https://i.ibb.co/SfncxDD/brand-icon.png' />Tenth Player</p>
         </NavLink>
 
         <NavLink to="/category/nationalteams">
@@ -37,7 +37,6 @@ const Navbar = ({logoIcon}) => {
 
         <NavLink to={"/cart"}>
             <CartWidget 
-                /* quantity={quantity} */
                 icon='https://cdn-icons-png.flaticon.com/512/5087/5087847.png'/>
         </NavLink>
     </nav>

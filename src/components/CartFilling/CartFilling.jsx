@@ -6,7 +6,7 @@ import styles from '../CartFilling/cartfilling.module.scss'
 
 const CartFilling = () => {
 
-    const {shoppingCart, overallAmount} = useContext(CartContext);
+    const {shoppingCart, overallAmount, clearAll} = useContext(CartContext);
 
     if (shoppingCart.length === 0) {
         return(
@@ -23,7 +23,11 @@ const CartFilling = () => {
         <div>
             {shoppingCart.map(prod => <CartArticle key={prod.id} product={prod} />)}
         </div>
-        <h4 className={styles.total}>Total amount to pay: ${overallAmount()}</h4>
+        <div className={styles.bottompart}>
+            <h4 className={styles.total}>Total amount to pay: ${overallAmount()}</h4>
+            <button className={styles.clearbtn} onClick={clearAll}>Clear Cart</button>
+            <Link to='/checkout'><button className={styles.buybtn}>Proceed To Buy</button></Link>
+        </div>
     </>
   )
 }

@@ -8,17 +8,15 @@ function ControlledCarousel() {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
-/* 
-  if (path == '/') {
-    return ControlledCarousel
-  } */
+
+
 
   return (
     <Carousel className={styles.container} activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../imgs/carousel-imgs/carousel1.jpg"
+          src="https://i.ibb.co/GpgYHbT/carousel1.jpg"
           alt="First slide"
         />
         <Carousel.Caption className={styles.caption}>
@@ -29,7 +27,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../imgs/carousel-imgs/carousel2.jpg"
+          src="https://i.ibb.co/r4X9mjk/carousel2.jpg"
           alt="Second slide"
         />
 
@@ -41,7 +39,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../imgs/carousel-imgs/carousell.jpg"
+          src="https://i.ibb.co/h2t3PVm/carousel3.jpg"
           alt="Third slide"
         />
 
@@ -55,7 +53,5 @@ function ControlledCarousel() {
     </Carousel>
   );
 }
-
-/* render(<ControlledCarousel />); */
 
 export default ControlledCarousel
